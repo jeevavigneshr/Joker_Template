@@ -1,0 +1,37 @@
+body{
+    
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vl;
+    text-align: center;
+}
+#container{
+    background: aqua;
+    height: 300px;
+    width: 350px;
+    border-radius:25px;
+    padding: 20px;
+    box-shadow: 10px 20px 5px rgb(218,208,208);
+}
+.brand-logo{
+    background: url(profile.jpg);
+    height:100px;
+    
+    width:25px;
+    margin:auto;
+}
+.brand-title{
+    color:rgb(14,149,252);
+}
+label,button,input{
+    display: block;
+    width:100%;
+    border:none;
+}
+label{
+    color:rgb(14,149,252);
+    padding:10px;
+
+}

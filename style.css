@@ -1,37 +1,58 @@
-body{
-    
-    background:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vl;
+ *{
+    margin:0;
+    padding:0;
+ }
+ nav{
+    background:black;
+    color:white;
+    padding:15px;
+ }
+ li,h1,ul{
+    display:inline;
+ }
+ ul{
+    margin-left:60%;
+ }
+ li{
+    color:gray;
+    cursor:pointer;
+ }
+ li:hover{
+    color:white;
+ }
+
+input{
+    width:60%;
+    padding:15px;
+}
+.searchbar{
+    padding:50px;
     text-align: center;
 }
-#container{
-    background: aqua;
-    height: 300px;
-    width: 350px;
-    border-radius:25px;
-    padding: 20px;
-    box-shadow: 10px 20px 5px rgb(218,208,208);
-}
-.brand-logo{
-    background: url(profile.jpg);
-    height:100px;
+.box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display:inline-block;
+    width: 220px;
     
-    width:25px;
-    margin:auto;
 }
-.brand-title{
-    color:rgb(14,149,252);
+.box:hover{
+    background: black;
+    color:white;
 }
-label,button,input{
-    display: block;
-    width:100%;
-    border:none;
+.products{
+    text-align:center;
 }
-label{
-    color:rgb(14,149,252);
-    padding:10px;
-
+.about{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
 }
+.contact{
+    background: black;
+    color:white;
+    text-align: center;
+    padding:40px;
+}
+ 
